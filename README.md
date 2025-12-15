@@ -49,3 +49,27 @@ smartpay-ai/
 git clone [https://github.com/YOUR_USERNAME/smartpay-ai.git](https://github.com/YOUR_USERNAME/smartpay-ai.git)
 cd smartpay-ai
 ```
+2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Configuration
+Copy the example environment file:
+```bash
+cp .env.example .env
+```
+Edit .env and populate your keys:
+```bash
+RPC_URL=[https://sepolia.infura.io/v3/YOUR_KEY](https://sepolia.infura.io/v3/YOUR_KEY)
+PRIVATE_KEY=0xYourPrivateKey
+SENDER_ADDRESS=0xYourWalletAddress
+MAX_GWEI_THRESHOLD=100
+CHECK_INTERVAL=30
+```
+4. Define Payments
+Edit payroll.csv to define who gets paid:
+```bash
+address,amount_eth
+0xUser1Address...,0.05
+0xUser2Address...,0.12
+```
