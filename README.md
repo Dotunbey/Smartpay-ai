@@ -40,7 +40,7 @@ smartpay-ai/
 │   └── utils.py        # CSV parsing & Logging
 ├── .env.example        # Secrets template
 ├── payroll.csv         # Payment target list
-├── main.py             # Entry point
+├── agent.py             # Entry point
 └── requirements.txt    # Dependencies
 ```
 ## 🛠️ Installation & Setup 
@@ -76,7 +76,7 @@ address,amount_eth
 ## 🏃 Usage
 ​Run the engine in your terminal:
 ```bash
-python main.py
+python agent.py
 ```
 What happens next: 
 1. The bot initializes and validates the connection.
