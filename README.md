@@ -86,8 +86,9 @@ What happens next:
 
 ## ​⚠️ Disclaimer
 ​This software handles private keys and financial transactions.
-​Always audit the code before running.
+
 ​Always test on Sepolia/Goerli testnets first.
+
 ​Never commit your .env file to GitHub.
 ## ​🤝 Contribution
 ​Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
