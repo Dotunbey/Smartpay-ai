@@ -73,3 +73,21 @@ address,amount_eth
 0xUser1Address...,0.05
 0xUser2Address...,0.12
 ```
+## 🏃 Usage
+​Run the engine in your terminal:
+```bash
+python main.py
+```
+What happens next: 
+1. The bot initializes and validates the connection.
+2. ​It begins a "Warmup Phase" (collecting 5 data points).
+3. ​It logs the current Gas Price vs. the Target Price.
+4. Once the price dips below the target, it processes the CSV and shuts down.
+
+## ​⚠️ Disclaimer
+​This software handles private keys and financial transactions.
+​Always audit the code before running.
+​Always test on Sepolia/Goerli testnets first.
+​Never commit your .env file to GitHub.
+## ​🤝 Contribution
+​Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
